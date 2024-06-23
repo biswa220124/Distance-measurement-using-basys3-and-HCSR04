@@ -17,3 +17,5 @@ This propsed system uses basys 3 FPGA and HCSR04 ultrasonic sensor to measure di
 HCSR04 has 4 pins: VCC,GND,ECHO,TRIGGER. It needs 5 volts to operate, so we have used an external power supply to power the sesnor. We have also used the logic level converter to step up and step down the incoming and outgoing voltages. The basys 3 can take maximum 3.3 volts of input and output, so the trigger pulse from basys 3 will be passed through the logic level converter and step up to 5 volts, and the echo pulse of 5 volts will step down to 3.3 volts as basys 3 can take maximum 3.3 volts from PMOD. Photos of the circuit have been added to the photos folder.
 
 Add all the files in the source files and the XDC file to the XDC file location.
+
+The Circuit was tested at Logic Design Workshop of Institute Of Technical Education And Research(ITER), SOA Deemed to be university
