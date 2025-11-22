@@ -1,19 +1,4 @@
-/* ------------------------------------------------ *
- * Title       : HC-SR04 Interface v1               *
- * Project     : HC-SR04 Interface                  *
- * ------------------------------------------------ *
- * File        : hc-sr04.v                          *
- * Author      : Yigit Suoglu                       *
- * Last Edit   : 16/01/2021                         *
- * Licence     : CERN-OHL-W                         *
- * ------------------------------------------------ *
- * Description : A verilog interface for HC-SR04    *
- *               ultrasonic ranging module. HC-SR04 *
- *               uses 5V logic!                     *
- * ------------------------------------------------ *
- * Revisions                                        *
- *     v1      : Inital version                     *
- * ------------------------------------------------ */
+
 
 module hc_sr04#(parameter ten_us = 10'd1000)(
   input clk, //100 MHz
