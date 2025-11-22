@@ -1,17 +1,4 @@
-/* ------------------------------------------------ *
- * Title       : Test module for HC-SR04            *
- * Project     : HC-SR04 Interface                  *
- * ------------------------------------------------ *
- * File        : testboard.v                        *
- * Author      : Yigit Suoglu                       *
- * Last Edit   : 16/01/2021                         *
- * ------------------------------------------------ *
- * Description : System to test HC-SR04 Interface   *
- *               Module. HC-SR04 uses 5V logic!     *
- * ------------------------------------------------ */
-//`include "Sources/hc-sr04.v"
-//`include "Test/btn_debouncer.v"
-//`include "Test/ssd_util.v"
+
 
 module board(
   input clk,
